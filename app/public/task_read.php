@@ -2,7 +2,6 @@
 
 require "db_connection.php";
 
-
 global $conn;
 
 $query = "SELECT * FROM tasks ORDER BY Id ASC";

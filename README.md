@@ -10,4 +10,4 @@ This app is created from scratch using HTML, CSS, vanilla PHP, Mysql & Docker.
 - Todo_list database (`mysql.sql`) is exported and added in project folder.\
 There are all SQL commands used to create the tasks table.
 
-![](../To-Do-List-App/app/public/assets/todo_list.JPG)
+![](/app/public/assets/todo_list.JPG)

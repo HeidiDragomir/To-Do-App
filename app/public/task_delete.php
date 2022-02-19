@@ -3,7 +3,6 @@
 require "db_connection.php";
 require "functions.php";
 
-
 $id = $_GET["id"];
 
 deleteTask($id);

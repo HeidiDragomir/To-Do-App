@@ -4,6 +4,7 @@ $dsn = "mysql:host=mysql;dbname=todo_list";
 $user = "root";
 $password = "secret";
 
+
 // Connect to database
 
 try {

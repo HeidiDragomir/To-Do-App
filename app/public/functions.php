@@ -2,7 +2,6 @@
 
 require "db_connection.php";
 
-
 // Delete a task
 
 function deleteTask($id)

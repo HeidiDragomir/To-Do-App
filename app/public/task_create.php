@@ -2,7 +2,6 @@
 
 require "db_connection.php";
 
-
 if (isset($_POST["submit"])) {
 
     $task = $_POST["task"];

@@ -2,7 +2,6 @@
 
 require "db_connection.php";
 
-
 global $conn;
 
 if (isset($_GET["completed"])) {
