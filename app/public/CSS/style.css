@@ -1,0 +1,108 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Itim", cursive;
+}
+
+body {
+	background-image: url("../assets/photo_1.jpg");
+	background-size: cover;
+}
+
+h1 {
+	font-size: 3em;
+	margin-top: 1em;
+	margin-left: 16.5em;
+}
+
+.container {
+	font-size: 1.1em;
+}
+
+.table {
+	margin-top: 5em;
+	margin-left: 45em;
+}
+
+.form {
+	font-size: 1.3em;
+	margin-top: 5em;
+	margin-left: 34.5em;
+}
+
+input[placeholder="Add a task!"],
+input[placeholder="Details"],
+.edit_form input {
+	font-size: 0.8em;
+	padding: 0.2em;
+	width: 25%;
+	border-radius: 5px;
+}
+
+input[placeholder="Details"] {
+	width: 38%;
+}
+
+label.space {
+	padding-left: 1em;
+}
+
+button {
+	font-size: 0.8em;
+	color: white;
+	text-align: center;
+	padding: 5px 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: #4caf50;
+}
+
+table,
+th,
+td {
+	border: 2px solid rgb(37, 138, 54);
+}
+
+td,
+th {
+	padding: 0.5em;
+}
+
+th {
+	background-color: #04aa6d;
+	color: white;
+}
+
+tr:nth-child(odd) {
+	background-color: #dfd7d7;
+}
+
+tr:hover {
+	background-color: rgb(165, 98, 98);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+footer {
+	text-align: right;
+	position: absolute;
+	bottom: 0px;
+	padding-right: 0.5em;
+	padding-bottom: 0.5em;
+	width: 100%;
+}
+
+/* Styles only for task_edit page */
+
+.edit_form {
+	font-size: 1.3em;
+	margin-top: 5em;
+	margin-left: 30em;
+}
